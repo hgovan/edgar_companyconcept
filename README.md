@@ -20,4 +20,35 @@ To run this application, you need to have Python installed on your system. If yo
 3. Install the required dependencies:
    ```sh
    pip install -r requirements.txt
+4. Run the Streamlit application:
+   ```sh
+   streamlit run app.py
 
+## Usage
+After running the application, you should see a text input where you can enter a company's ticker. Upon submitting a valid ticker, the application will display:
+
+- The company's bio and financial summary.
+- A selection of filings to view.
+- A dropdown to select a specific GAAP financial tag.
+- A downloadable CSV file with GAAP financial data.
+
+## Dependencies
+- Streamlit
+- Pandas
+- Other dependencies that should be listed in `requirements.txt`
+
+## Contributing
+Contributions to improve this project are welcome. Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add some feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Create a new Pull Request.
+
+## License
+This project is open-sourced under the MIT License. See the LICENSE file for more information.
+
+## Contact
+For any queries or feedback, please open an issue on the GitHub repository issue tracker.
